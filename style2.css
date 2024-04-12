@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    
+}
+.fblogpg{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 240, 245);
+    flex-direction: column;
+    
+}
+h1{
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+#log h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    
+}
+.details input{
+    width: 350px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-color: rgb(233, 220, 220);
+    padding: 10px;
+}
+.details button{
+    border-radius: 6px;
+    width: 350px;
+    height: 46px;
+    background-color: rgb(34, 72, 240);
+    margin-bottom: 20px;
+}
+.details button{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blue;
+}
+.forgot a{
+    font-size: 15px;
+    color: rgb(71, 153, 180);
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+ a:hover{
+    text-decoration: underline;
+ }
+
